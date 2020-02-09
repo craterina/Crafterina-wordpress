@@ -25,8 +25,8 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 }
 
 #masthead{
-	
-	height: 30vh;
+	background-color: beige;
+	height: 20vh;
 }
 #colophon{
 	background-color: #C599C5;

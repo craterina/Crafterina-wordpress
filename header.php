@@ -22,10 +22,15 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-<img src="../../uploads/2020/02/crafterina-100x100.png" alt="">
+
 	<header id="masthead" class="site-header">
-		<img src="../../uploads/2020/02/crafterina-100x100.png" alt="">
+		<?php the_custom_logo(); ?>
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'humescores' ); ?></button>
+			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+		</nav>
 
 	</header>
-	<img src="../../uploads/2020/02/crafterina-100x100.png" alt="">
+	
 <div id="content" class="site-content">
