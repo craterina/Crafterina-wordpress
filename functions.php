@@ -59,6 +59,17 @@ if ( ! function_exists( 'craferina_setup' ) ) :
 			'caption',
 		) );
 
+		add_theme_support(
+			'editor-font-sizes',
+			array(
+				array(
+					'name' => esc_html__( 'Regular', 'sample-theme' ),
+					'size' => 16,
+					'slug' => 'regular'
+				),
+			)
+		);
+
 		// Set up the WordPress core custom background feature.
 		add_theme_support( 'custom-background', apply_filters( 'craferina_custom_background_args', array(
 			'default-color' => '',
@@ -67,6 +78,79 @@ if ( ! function_exists( 'craferina_setup' ) ) :
 
 		// Add theme support for selective refresh for widgets.
 		add_theme_support( 'customize-selective-refresh-widgets' );
+
+		/**
+		 * Add support for default core block styles.
+		 */
+		// add_theme_support( 'wp-block-styles' );
+
+		/**
+		 * Add support for full width block alignment
+		 */
+		add_theme_support( 'align-wide' );
+
+				/**
+		 * Add support for custom color palette
+		 */
+		add_theme_support(
+			'editor-color-palette',
+			array(
+				array(
+					'name'  => esc_html__( 'Blue', 'sample-theme' ),
+					'slug'  => 'blue',
+					'color' => '#59BACC',
+				),
+				array(
+					'name'  => esc_html__( 'Green', 'sample-theme' ),
+					'slug'  => 'green',
+					'color' => '#58AD69',
+				),
+				array(
+					'name'  => esc_html__( 'Orange', 'sample-theme' ),
+					'slug'  => 'orange',
+					'color' => '#FFBC49',
+				),
+				array(
+					'name'  => esc_html__( 'Red', 'sample-theme' ),
+					'slug'  => 'red',
+					'color' => '#E2574C',
+				),
+				array(
+					'name'  => esc_html__( 'White', 'sample-theme' ),
+					'slug'  => 'white',
+					'color' => '#FFF',
+				),
+				array(
+					'name'  => esc_html__( 'Black', 'sample-theme' ),
+					'slug'  => 'black',
+					'color' => '#000',
+				),
+			)
+		);
+
+		/**
+		 * Add support for disabling custom colors
+		 */
+		add_theme_support( 'disable-custom-colors' );
+
+		/**
+		 * Add support for font sizes
+		 */
+		add_theme_support(
+			'editor-font-sizes',
+			array(
+				array(
+					'name' => esc_html__( 'Regular', 'sample-theme' ),
+					'size' => 16,
+					'slug' => 'regular'
+				),
+			)
+		);
+
+		/**
+		 * Add support for disabling custom font sizes
+		 */
+		add_theme_support( 'disable-custom-font-sizes' );
 
 		/**
 		 * Add support for core custom logo.
