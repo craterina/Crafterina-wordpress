@@ -178,7 +178,7 @@ function sample_theme_scripts() {
 
 	wp_enqueue_style(
 		'sample-theme-foundation',
-		get_template_directory_uri() . '/assets/css/vendor/foundation.min.css',
+		get_template_directory_uri() . '/assets/css/foundation.min.css',
 		null,
 		'6.5.1'
 	);
