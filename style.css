@@ -59,7 +59,7 @@ nav{
 nav ul{
 	line-height: 150px;
 }
-nav ul li{
+nav ul li a{
 	color: #000;
 	line-height: 150px;
 }

@@ -271,6 +271,13 @@ function sample_theme_scripts() {
 		'6.5.1'
 	);
 
+	wp_enqueue_style(
+		'custom-css',
+		get_template_directory_uri() . '/custom.css',
+		null
+		
+	);
+
 	wp_enqueue_script(
 		'sample-theme-what-input',
 		get_template_directory_uri() . '/assets/js/vendor/what-input.js',

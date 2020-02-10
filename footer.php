@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Craferina
+ * @package E-commerce_Theme
  */
 
 ?>
@@ -14,33 +14,21 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
-		<div>
-			<h2></h2>
-			<p>about</p>
-			<p>contact</p>
-			<p>career</p>
-		</div>
-		<div>
-			<h2>DEAL</h2>
-			<p>Coupons</p>
-			<p>Products to discover</p>
-			<p>Occastional deals</p>
-		</div>
-		<div>
-			<h2>POLICIES</h2>
-			<p>Exchange</p>
-			<p>Terms of use</p>
-			<p>Security</p>
-			<p>Privacy</p>
-		</div>
-		<div>
-			<h2>CONTACT</h2>
-			<p>2000 Simcoe Street, Oshawa, Ontario</p>
-			<p>Tel:2899969530</p>
-			<p>jewellry@craferina.com</p>
-		</div>
-	</footer>
-</div>
+		<div class="site-info">
+			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'ecommerce-theme' ) ); ?>">
+				<?php
+				/* translators: %s: CMS name, i.e. WordPress. */
+				printf( esc_html__( 'Proudly powered by %s', 'ecommerce-theme' ), 'WordPress' );
+				?>
+			</a>
+			<span class="sep"> | </span>
+				<?php
+				/* translators: 1: Theme name, 2: Theme author. */
+				printf( esc_html__( 'Theme: %1$s by %2$s.', 'ecommerce-theme' ), 'Craferina', '<a href="/">Craferina</a>' );
+				?>
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
 
 <?php wp_footer(); ?>
 
