@@ -4,7 +4,7 @@ register_block_style(
     array(
         'name'         => 'blue-quote',
         'label'        => __( 'Blue Quote' ),
-        'inline_style' => '.wp-block-quote.is-style-blue-quote { color: blue; }',
+        'inline_style' => '.wp-block-quote.is-style-blue-quote { background-color: blue; }',
     )
 );
 ?>

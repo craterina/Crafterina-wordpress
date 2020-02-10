@@ -19,74 +19,27 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 */
 
-*{
-	margin:0;
-	padding:0;
+
+
+
+
+
+.has-pink-color {
+	color: #F7DDD9;
 }
 
-#masthead{
-	background-color: beige;
-	height: 20vh;
-}
-#masthead nav{
-	list-style: none;
-
+.has-darkpink-color {
+	background-color: #E9B8AC;
 }
 
-#colophon{
-	background-color: #C599C5;
-	text-align: center;
-	color:white;
-	font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
-	display: flex;
-	padding:40px 0px;
-}
-#colophon div{
-	flex: 1;
-	font-size: 13px;
+.has-pink3-color {
+	color: #C599C5;
 }
 
-
-
-
-
-
-
-
-
-
-
-.has-blue-color {
-	color: #59BACC;
+.has-pink3-color {
+	background-color: #965B96;
 }
 
-.has-blue-background-color {
-	background-color: #59BACC;
-}
-
-.has-green-color {
-	color: #58AD69;
-}
-
-.has-green-background-color {
-	background-color: #58AD69;
-}
-
-.has-orange-color {
-	color: #FFBC49;
-}
-
-.has-orange-background-color {
-	background-color: #FFBC49;
-}
-
-.has-red-color {
-	color: #E2574C;
-}
-
-.has-red-background-color {
-	background-color: #E2574C;
-}
 
 .has-white-color {
 	color: #fff;

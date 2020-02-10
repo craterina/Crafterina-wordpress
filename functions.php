@@ -89,7 +89,7 @@ if ( ! function_exists( 'craferina_setup' ) ) :
 		 */
 		add_theme_support( 'align-wide' );
 
-				/**
+		/**
 		 * Add support for custom color palette
 		 */
 		add_theme_support(
@@ -97,23 +97,23 @@ if ( ! function_exists( 'craferina_setup' ) ) :
 			array(
 				array(
 					'name'  => esc_html__( 'Blue', 'sample-theme' ),
-					'slug'  => 'blue',
-					'color' => '#59BACC',
+					'slug'  => 'pink',
+					'color' => '#F7DDD9',
 				),
 				array(
 					'name'  => esc_html__( 'Green', 'sample-theme' ),
-					'slug'  => 'green',
-					'color' => '#58AD69',
+					'slug'  => 'dark pink',
+					'color' => '#E9B8AC',
 				),
 				array(
 					'name'  => esc_html__( 'Orange', 'sample-theme' ),
-					'slug'  => 'orange',
-					'color' => '#FFBC49',
+					'slug'  => 'pink3',
+					'color' => '#C599C5',
 				),
 				array(
 					'name'  => esc_html__( 'Red', 'sample-theme' ),
-					'slug'  => 'red',
-					'color' => '#E2574C',
+					'slug'  => 'pink4',
+					'color' => '#965B96',
 				),
 				array(
 					'name'  => esc_html__( 'White', 'sample-theme' ),
@@ -229,8 +229,12 @@ require get_template_directory() . '/inc/template-tags.php';
 /**
  * Functions which enhance the theme by hooking into WordPress.
  */
-require get_template_directory() . '/inc/template-functions.php';
+require get_template_directory() . '/inc/template-hooks.php';
 
+/**
+ * custom block editor 
+ */
+require get_template_directory() . '/inc/block-editor.php';
 /**
  * Customizer additions.
  */
@@ -265,6 +269,13 @@ function sample_theme_scripts() {
 		get_template_directory_uri() . '/assets/css/foundation.min.css',
 		null,
 		'6.5.1'
+	);
+
+	wp_enqueue_style(
+		'custom-css',
+		get_template_directory_uri() . '/custom.css',
+		null
+		
 	);
 
 	wp_enqueue_script(
