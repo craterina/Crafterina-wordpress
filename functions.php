@@ -97,23 +97,23 @@ if ( ! function_exists( 'craferina_setup' ) ) :
 			array(
 				array(
 					'name'  => esc_html__( 'Blue', 'sample-theme' ),
-					'slug'  => 'blue',
-					'color' => '#59BACC',
+					'slug'  => 'pink',
+					'color' => '#F7DDD9',
 				),
 				array(
 					'name'  => esc_html__( 'Green', 'sample-theme' ),
-					'slug'  => 'green',
-					'color' => '#58AD69',
+					'slug'  => 'dark pink',
+					'color' => '#E9B8AC',
 				),
 				array(
 					'name'  => esc_html__( 'Orange', 'sample-theme' ),
-					'slug'  => 'orange',
-					'color' => '#FFBC49',
+					'slug'  => 'pink3',
+					'color' => '#C599C5',
 				),
 				array(
 					'name'  => esc_html__( 'Red', 'sample-theme' ),
-					'slug'  => 'red',
-					'color' => '#E2574C',
+					'slug'  => 'pink4',
+					'color' => '#965B96',
 				),
 				array(
 					'name'  => esc_html__( 'White', 'sample-theme' ),

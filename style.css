@@ -19,95 +19,27 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 */
 
-*{
-	margin:0;
-	padding:0;
-}
-
-#masthead{
-	background-color: white;
-	height: 20vh;
-}
-#masthead nav{
-	list-style: none;
-
-}
-
-#colophon{
-	background-color: #F7DDD9;
-	text-align: center;
-	color:white;
-	font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
-	display: flex;
-	padding:40px 0px;
-}
-#colophon div{
-	flex: 1;
-	font-size: 13px;
-}
-
-
-li{
-	list-style: none;
-	float: left;
-	color: #000;
-}
-nav{
-	color: #000;
-	float: left;
-}
-nav ul{
-	line-height: 150px;
-}
-nav ul li a{
-	color: #000;
-	line-height: 150px;
-}
-header img{
-	float: left;
-	width: 150px;
-}
-header{
-	height: auto;
-}
 
 
 
 
 
-
-
-.has-blue-color {
-	color: #59BACC;
+.has-pink-color {
+	color: #F7DDD9;
 }
 
-.has-blue-background-color {
-	background-color: #59BACC;
+.has-darkpink-color {
+	background-color: #E9B8AC;
 }
 
-.has-green-color {
-	color: #58AD69;
+.has-pink3-color {
+	color: #C599C5;
 }
 
-.has-green-background-color {
-	background-color: #58AD69;
+.has-pink3-color {
+	background-color: #965B96;
 }
 
-.has-orange-color {
-	color: #FFBC49;
-}
-
-.has-orange-background-color {
-	background-color: #FFBC49;
-}
-
-.has-red-color {
-	color: #E2574C;
-}
-
-.has-red-background-color {
-	background-color: #E2574C;
-}
 
 .has-white-color {
 	color: #fff;
