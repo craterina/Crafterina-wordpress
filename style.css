@@ -25,7 +25,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 }
 
 #masthead{
-	background-color: beige;
+	background-color: white;
 	height: 20vh;
 }
 #masthead nav{
@@ -34,7 +34,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 }
 
 #colophon{
-	background-color: #C599C5;
+	background-color: #F7DDD9;
 	text-align: center;
 	color:white;
 	font-family: "Graphik Webfont",-apple-system,BlinkMacSystemFont,"Roboto","Droid Sans","Segoe UI","Helvetica",Arial,sans-serif;
@@ -47,8 +47,29 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 }
 
 
-
-
+li{
+	list-style: none;
+	float: left;
+	color: #000;
+}
+nav{
+	color: #000;
+	float: left;
+}
+nav ul{
+	line-height: 150px;
+}
+nav ul li{
+	color: #000;
+	line-height: 150px;
+}
+header img{
+	float: left;
+	width: 150px;
+}
+header{
+	height: auto;
+}
 
 
 

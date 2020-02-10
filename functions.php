@@ -89,7 +89,7 @@ if ( ! function_exists( 'craferina_setup' ) ) :
 		 */
 		add_theme_support( 'align-wide' );
 
-				/**
+		/**
 		 * Add support for custom color palette
 		 */
 		add_theme_support(
@@ -229,8 +229,12 @@ require get_template_directory() . '/inc/template-tags.php';
 /**
  * Functions which enhance the theme by hooking into WordPress.
  */
-require get_template_directory() . '/inc/template-functions.php';
+require get_template_directory() . '/inc/template-hooks.php';
 
+/**
+ * custom block editor 
+ */
+require get_template_directory() . '/inc/block-editor.php';
 /**
  * Customizer additions.
  */
