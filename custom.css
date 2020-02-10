@@ -30,7 +30,8 @@ li{
 	list-style: none;
 	float: left;
     color: #000;
-    margin-top: 60px;
+    margin-top: 40px;
+    font-size: 25px;
 }
 nav{
 	color: #000;
